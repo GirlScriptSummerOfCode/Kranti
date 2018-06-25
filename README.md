@@ -30,7 +30,7 @@ The technologies which will be used in developing this project are as follows:
 
 The admin of this project is [@Jayesh KR](https://github.com/jayeshkattar).
 
-### Co-Moderators
+### Mentors
 
 The co-moderators of this project are:
 
