@@ -32,7 +32,7 @@ The admin of this project is [@Jayesh KR](https://github.com/jayeshkattar).
 
 ### Mentors
 
-The co-moderators of this project are:
+The mentors of this project are:
 
 * [@Gunjan Karamchandani](https://github.com/troublemagnet)
 * [@PK](https://github.com/Pratul1997)
