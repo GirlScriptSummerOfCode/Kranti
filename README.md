@@ -7,7 +7,6 @@
 * [Collaborators](#collaborators)
     * [Admin](#admin)
     * [Mentors](#mentors)
-    * [Mentors](#mentors)
 * [Contributing Guidelines](#contributing-guidelines)
 
 ## Inroduction
