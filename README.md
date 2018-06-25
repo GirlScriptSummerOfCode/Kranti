@@ -2,14 +2,12 @@
 
 ## Table of contents
 
-- [Kranti](#kranti)
-    - [Table of contents](#table-of-contents)
-    - [Inroduction](#inroduction)
-    - [Technologies](#technologies)
-    - [Collaborators](#collaborators)
-        - [Admin](#admin)
-        - [Co-Moderators](#co-moderators)
-    - [Contributing Guidelines](#contributing-guidelines)
+* [Inroduction](#inroduction)
+* [Technologies](#technologies)
+* [Collaborators](#collaborators)
+    * [Admin](#admin)
+    * [Co-Moderators](#co-moderators)
+* [Contributing Guidelines](#contributing-guidelines)
 
 ## Inroduction
 
@@ -19,12 +17,12 @@ Kranti is a women's rights NGO that provides a healing home, comprehensive educa
 
 The technologies which will be used in developing this project are as follows:
 
--   [Node.js](https://nodejs.org/en/)
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
--   [React](https://reactjs.org/)
--   [HTML](https://en.wikipedia.org/wiki/HTML)
--   [Bootstrap](https://getbootstrap.com/)
--   [css3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [Node.js](https://nodejs.org/en/)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [React](https://reactjs.org/)
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [Bootstrap](https://getbootstrap.com/)
+* [css3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ## Collaborators
 
@@ -36,14 +34,14 @@ The admin of this project is [@Jayesh KR](https://github.com/jayeshkattar).
 
 The co-moderators of this project are:
 
--   [@Gunjan Karamchandani](https://github.com/troublemagnet)
--   [@PK](https://github.com/Pratul1997)
--   [@lalitmee](https://github.com/lalitmee)
--   [@Avani](https://github.com/AvaniVerma)
+* [@Gunjan Karamchandani](https://github.com/troublemagnet)
+* [@PK](https://github.com/Pratul1997)
+* [@lalitmee](https://github.com/lalitmee)
+* [@Avani](https://github.com/AvaniVerma)
 
 ## Contributing Guidelines
 
 Refer to this link [CONTRIBUTING.md](https://github.com/GirlScriptSummerOfCode/Kranti/blob/master/CONTRIBUTING.md)
 
--   Please make sure to read this before getting started.
--   These guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
+* Please make sure to read this before getting started.
+* These guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
