@@ -6,10 +6,6 @@ The following is a set of guidelines for contributing to the **Kranti** project 
 
 #### Table Of Contents
 
--   [Code of Conduct](#code-of-conduct)
-
--   [I don't want to read this whole thing, I just have a question!!!](#i-don't-want-to-read-this-whole-thing-i-just-have-a-question)
-
 -   [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
     -   [Github](#github)
@@ -32,19 +28,7 @@ The following is a set of guidelines for contributing to the **Kranti** project 
 
 -   [Additional Notes](#additional-notes)
 
-## Code of Conduct
 
-This project and everyone participating in it is/are maintained by the Kranti members. By participating, you are expected to uphold this code. In case, you need to contact us, tag anyone of us in the GirlScript Summer of Code Slack channel, below are our slack handles
-
--   @Jayesh Katta Ramalingaiah
--   @Gunjan Karamchandani (M)
--   @PK (M)
--   @lalitmee (M)
--   @Avani (M)
-
-## I don't want to read this whole thing, I just have a question!!!
-
-> **Note:** Please don't file an issue to ask a question.You'll get faster results by just contacting us on our slack handles above.
 
 ## What should I know before I get started?
 
@@ -57,7 +41,7 @@ This is the key thing you need to know before hopping onboard, we strongly sugge
 
 ## Design Decisions
 
-We will follow a straight forward design approach. Its good, if you go through the current code by either forking or cloning the repository. We strongly suggest you to stick with the current design guidelines. We will be updating this guide with more detailed guidelines & boilerplate code, if possible.
+We will follow a straight forward design approach. It's good if you go through the current code by either forking or cloning the repository. We strongly suggest you to stick with the current design guidelines. We will be updating this guide with more detailed guidelines & boilerplate code, if possible.
 
 ## How Can I Contribute?
 
@@ -154,39 +138,6 @@ _You can see that the commit is more readable and understandable in the good com
 
 ## Project Setup Instructions
 
-The first step to contributing to the code base is to set up your project.
-
-### Set up Git
-
-#### Install Git
-
-##### For Linux Systems:
-
-Install git via your native package management system: ::
-
-    $ yum install git
-
-or::
-
-    $ sudo apt-get install git
-
-#### Windows and Mac OS X:
-
-Download GitHub's software, which will install git with a nice GUI.
-
-#### Configure Git Settings
-
-To set user-name and email (replace them with your own)::
-
-    $ git config user.name "Firstname Lastname"
-    $ git config user.email "your_email@youremail.com"
-
-The name should be your actual name, not your GitHub username.
-
-#### Create Github Account
-
-Now you should have a GitHub account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
-
 ### Fork the Project
 
 Create your own _fork_ of the project (if you have not yet). Go to the project repository:
@@ -194,10 +145,6 @@ Create your own _fork_ of the project (if you have not yet). Go to the project r
 -   https://github.com/GirlScriptSummerOfCode/Kranti.git
 
 and click the “Fork” button.
-
-Now, you have your own repository for the project. If your GitHub username is `nickname` then the address of the forked project will look something like:
-
--   https://github.com/nickname/Kranti
 
 ### Clone the Project
 
@@ -207,77 +154,13 @@ code from the original repository::
     $ git clone https://github.com/GirlScriptSummerOfCode/Kranti.git
     $ cd Kranti
 
-### Install the Dependencies Required by the Project Locally
-
-After `git clone` has finished cloning, enter the `Kranti` directory that was created by using the following command:
-(If you are already in `Kranti` directory then skip this step).
-
-    $ cd Kranti
-
 #### Installing Dependencies
 
 Now to install the dependencies on your local machine, insert the following code and press enter:
 
     $ npm install
 
-This might take a while depending on your internet connection. Give it some time to install all the dependencies.
-
-After all the dependencies have been installed successfully, you will see the message as in the image above that ends with:
-`added (some number) packages in (some number)s`
-
-Now you are all set to work on the project locally. To open the project development environment, run:
-
-    $ npm start
-
-Now just wait a few seconds for the compilation to finish and it will automatically create a local server on your machine and also open up the `index.html` of the project in your default browser. This also has features like **live reload** so it will automatically refresh the page when you save your work. **Just make sure to save all of the files you might have edited or you will get compiling errors.**
-
-You can **right click** on the `Kranti` folder and open it in your favorite text editor to start contributing :)
-
-## How to Sync your Fork with the Main Project Repository (Upstream)?
-
-### Configuring a remote for a fork
-
-Before you can sync, you will first need to add the source of the upstream repository where your local project can check for new commits/changes to the original project. To do this, open Git Bash from your `Kranti` folder and run:
-
-    $ git remote add upstream (link to the original project/upstream without brackets)
-
-    In this case:
-
-    $ git remote add upstream https://github.com/GirlScriptSummerOfCode/Kranti.git
-
-If you run into any problems, please check this link below:
-
--   https://help.github.com/articles/configuring-a-remote-for-a-fork/
-
-### Syncing a fork
-
-Your fork is now ready to sync with the upstream repository for any new commits/changes. Now to actually sync the fork, open Git Bash from your local project directory and run:
-
-    git fetch upstream
-
-Then run this to check out your fork's local master branch:
-
-    git checkout master
-
-Now merge changes from the upstream repository into your master branch:
-
-    git merge upstream/master
-
-You might see file changes, insertions and deletions. But if your local branch did not have any unique commits, it will instead perform a **fast-forward** as in the image.
-
-You may also follow the GitHub guide below for the same process.
-
--   https://help.github.com/articles/syncing-a-fork/
-
-Now you will need to `push` these changes to your GitHub fork by running:
-
-    git push (your fork's .git link without brackets)
-
-Here is the GitHub guide for this if you would like to follow that instead:
-
--   https://help.github.com/articles/pushing-to-a-remote/
-
-First you saved (fetched) the latest changes/commits from the original/upstream repository to your local project and then synced (pushed) those local changes to your forked repository on GitHub.
+Now you are all set to work on the project locally.
 
 ## Styleguides
 
