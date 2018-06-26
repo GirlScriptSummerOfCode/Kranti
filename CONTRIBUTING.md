@@ -20,13 +20,7 @@ The following is a set of guidelines for contributing to the **Kranti** project 
 
 -   [Project Setup Instructions](#project-setup-instructions)
 
--   [Styleguides](#styleguides)
-
 -   [Git Commit Messages](#git-commit-messages)
-
--   [Code Styleguide](#code-styleguide)
-
--   [Additional Notes](#additional-notes)
 
 
 
@@ -73,17 +67,13 @@ Explain the problem and include additional details to help maintainers reproduce
 
 -   **Are you able to reproduce the issue?** If not, provide details on how often the problem occurs and under which conditions.
 
-#### Bug Issue Template
-
-_Will be provided shortly_
-
 ### Pull Requests
 
 A pull request is a way to contribute to our project, you clone our project, make changes locally and submit a pull request.
 
 #### Before making a Pull request
 
--   Fill in pull request template (Will be provided shortly)
+-   Fill in pull request template 
 -   Include screen shots in your pull request whenever possible.
 -   Follow our code guidelines.
 
@@ -162,19 +152,7 @@ Now to install the dependencies on your local machine, insert the following code
 
 Now you are all set to work on the project locally.
 
-## Styleguides
-
-### Git Commit Messages
-
+## Git Commit Messages
 -   Proper & meaningful commit messages are the best way to keep code maintainable and organized.
 -   Always write a commit message, even if it's for small change.
 
-### Code Styleguide
-
-_To be Updated shortly_
-
-## Additional Notes
-
-We will be available in case if you are stuck somewhere, feel free to reach out to us if any assistance is needed.
-
-Happy coding!
