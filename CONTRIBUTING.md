@@ -84,35 +84,24 @@ Here are links and resources to get you started on Pull requests.
 
 #### Pull Request Template
 
-Most important part of the pull requests are the messages which you put as the commit message. That message is there for others to give a summary of what changes you did in the pull request. So we have a protocol for that messages.
+Most important part of the pull requests are pull request descriptions which should explain the changes in the pull request to others. When making a PR, please fill the PR template and do not **delete** it. 
 
-We would like you to put your commit messages in the form which is described below:
-
-```
-Title of the pull request(if you want, you can include file name to be more specific)
-
-Summary of the changes(you should mention the changes which you did in the pull request)
-
-Fixes or Closes <url of the issue>(Fixes and closes will be chosen by you according to the type of issue)
-```
+A pull request title should ideally begin with the name of the file you've edited and should describe what your pull request does in 60 characters or less. In case multiple files are being edited, the PR title should just contain the changes being made in the PR.
 
 Here is an example of a good commit message, for your convenience:
 
 ```
+# Title: Describe the change in maximum of 60 characters.
 configure.py: Fix docstring typo
 
-This fixes the typo and changes
+# Issue link: Mention the URL of the issue it closes or fixes.
+Fixes https://github.com/coala/coala/issues/4018
+
+#Description:  Describe the reasoning behind your changes in a maximum of 80 characters per line.
+This fixes the typo and changes 
 it from wether --> whether.
 
-Fixes https://github.com/coala/coala/issues/4018
 ```
-
--   configure.py: Fix docstring typo: Describe the change in
-    maximum of 60 characters.
--   This fixes.. ..whether.: Describe the reasoning behind your changes
-    in a maximum of 80 characters per line.
--   Closes https://github.com/coala/coala/issues/7971: Mention the URL
-    of the issue it closes or fixes.
 
 Here is an example of the bad commit:
 
