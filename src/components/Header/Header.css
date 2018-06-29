@@ -1,3 +1,8 @@
+header {
+  display: grid;
+  grid-template-columns: 'header'
+}
+
 .nav>li {
   margin-top: 4px;
   font-size: 16px;
