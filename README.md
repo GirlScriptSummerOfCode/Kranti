@@ -15,14 +15,15 @@ Kranti is a women's rights NGO that provides a healing home, comprehensive educa
 
 ## Technologies
 
-The technologies which will be used in developing this project are as follows:
+* The technologies which will be used in developing this project are as follows:
+  * [Node.js](https://nodejs.org/en/)
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  * [React](https://reactjs.org/)
+  * [HTML](https://en.wikipedia.org/wiki/HTML)
+  * [Bootstrap4](https://getbootstrap.com/)
+  * [Css3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-* [Node.js](https://nodejs.org/en/)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-* [React](https://reactjs.org/)
-* [HTML](https://en.wikipedia.org/wiki/HTML)
-* [Bootstrap](https://getbootstrap.com/)
-* [css3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* New to any of the frameworks specified above: [Learn from CodeAcademy](https://www.codecademy.com/catalog/subject/all).
 
 ## Collaborators
 
