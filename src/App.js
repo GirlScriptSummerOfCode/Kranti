@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
 
 class App extends Component {
     render() {
         return (
+          <body>
+            <Header/>
             <div className="App" style={{ textAlign: 'center' }}>
-            <h1>Hello World</h1>
-            <p>Welcome to Kranti</p>
+              <h1>Hello World</h1>
+              <p>Welcome to Kranti</p>
             </div>
+          </body>
         );
     }
 }

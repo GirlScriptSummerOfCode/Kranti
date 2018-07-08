@@ -1,0 +1,27 @@
+header {
+  display: grid;
+  grid-template-columns: 'header'
+}
+
+.nav>li {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.navbar-toggle {
+  margin: 12px;
+  border: 0px;
+}
+
+.header_logo {
+  height: 30px;
+  width: auto;
+  float: left;
+}
+
+a.logo_title {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
